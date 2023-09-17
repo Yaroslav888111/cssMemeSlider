@@ -59,9 +59,10 @@ body {
 
 }
 .bar:active {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(4, 8, 59);
 
 }
+
 input[name="r"] {
     position: absolute;
     visibility: hidden;
@@ -78,3 +79,46 @@ input[name="r"] {
 #r4:checked ~ .s1 {
     margin-left: -75%;
 }
+
+
+/*MEDIA*/
+
+@media (max-width:768px) {
+    .slider_wrapper {
+        width: 500px;
+        height: 400px;
+    }
+    .slide span {
+        font-size: 14px;
+    }
+    .navigation {
+        bottom: 12px;
+    }
+}
+
+@media (max-width:500px) {
+    .middle {
+        top: 40%;
+    }
+    .navigation {
+        bottom: 41px;
+        right: 136px;
+    }
+}
+
+@media (max-width:499px) {
+    .middle {
+        top: 38%;
+    }
+    .slider_wrapper {
+        width: 328px;
+        height: 370px;
+    }
+    .navigation {
+        bottom: 42px;
+        right: 51px;
+    }
+}
+
+
+
