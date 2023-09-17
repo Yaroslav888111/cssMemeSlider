@@ -38,7 +38,7 @@ body {
 .navigation {
     display: flex;
     position: absolute;
-    bottom: 40px;
+    bottom: 31px;
     right: -10px;
     transform: translateX(-50%);
 }
@@ -86,13 +86,13 @@ input[name="r"] {
 @media (max-width:768px) {
     .slider_wrapper {
         width: 500px;
-        height: 400px;
+        height: 470px;
     }
     .slide span {
         font-size: 14px;
     }
     .navigation {
-        bottom: 12px;
+        bottom: 18px;
     }
 }
 
@@ -101,8 +101,8 @@ input[name="r"] {
         top: 40%;
     }
     .navigation {
-        bottom: 41px;
-        right: 136px;
+        bottom: 50px;
+        right: 133px;
     }
 }
 
